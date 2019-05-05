@@ -53,6 +53,6 @@ while True:
 	if cv2.waitKey(1)==32:
 		break
 
-print("The values for LH:{} , LS:{} , LV:{} , HH:{} , HS:{} , HV:{}".format(LH,LS,LV,HH,HS,HV))
+print("The values for the LH:{} , LS:{} , LV:{} , HH:{} , HS:{} , HV:{}".format(LH,LS,LV,HH,HS,HV))
 cv2.destroyAllWindows()
 cap.release()
